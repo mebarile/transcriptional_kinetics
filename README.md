@@ -1,6 +1,4 @@
-# transcriptional_kinetics
-
-diffGEK in erythropoiesis and myelopoiesis
+# diffGEK: a tool to compute transcriptional kinetics
 
 This tool is meant to uncover differences in transcriptional kinetics among 2 conditions for any differentiating trajectory for which we have single cell resolution.
 
