@@ -6,4 +6,4 @@ Since it is based on models such as scVelo (Bergen et al. 2020) and pseudodynami
 
 We applied our tools to simulated data as well as erythropoiesis and myelopoiesis published datasets.
 
-Before any analysis, you need to build the models with the corresponnding codes inn the model_building folder. Further instructions are provided in the respective folders.transcriptional_kinetics
+Before any analysis, you need to build the models with the corresponding codes in the model_building folder. Further instructions are provided in the respective folders.transcriptional_kinetics
