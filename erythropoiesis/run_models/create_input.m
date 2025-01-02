@@ -6,8 +6,7 @@
 % D.pop.t: the overall mean pseudotime, sorted
 % D.pop.mean: mean spliced and unspliced counts in both conditions
 % D.pop.var: variance of the spliced and unspliced counts in both conditions
-% D.pop.para_sim: the kinetic rates used to produced the counts, and the
-% error on the rates, also generated
+
 
 data_w_s = readtable('./data_input/jak2_wt_ery_spl.csv');
 data_w_u = readtable('./data_input/jak2_wt_ery_unspl.csv');
