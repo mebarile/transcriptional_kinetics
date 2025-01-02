@@ -1,7 +1,4 @@
 function [negLogL,grad] = llKin_model8(varargin)
-% compute the log likelihood value for Qiu compartment data for constant
-% transition and time-dependent growth rates
-
 
 
 
@@ -70,9 +67,7 @@ end
 
 N = [u(ind_w,1:2),u(ind_k,3:4)];
 
-% size(N)
 dNdtheta = [us(ind_w,1:2,:),us(ind_k,3:4,:)];
-% size(dNdtheta)
 
 
 negLogL = 0;
