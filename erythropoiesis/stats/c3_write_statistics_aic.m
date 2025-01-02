@@ -26,7 +26,7 @@ for n = 1:1042
     if sum(isinf(chi))
 
 
-        dlmwrite(['statistics_aic_' num2str(pop1) '_' num2str(pop2) '.txt'],[n,0],'-append');
+        dlmwrite(['./results/statistics_aic_' num2str(pop1) '_' num2str(pop2) '.txt'],[n,0],'-append');
 
     else
         dlmwrite(['./results/statistics_aic_' num2str(pop1) '_' num2str(pop2) '.txt'],[n,min_chi],'-append');
