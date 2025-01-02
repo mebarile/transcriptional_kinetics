@@ -1,8 +1,4 @@
 function [negLogL,grad] = llKin_model6(varargin)
-% compute the log likelihood value for Qiu compartment data for constant
-% transition and time-dependent growth rates
-
-
 
 
 if nargin >= 3
