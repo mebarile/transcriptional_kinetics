@@ -7,10 +7,11 @@ filePh = fopen('./data_input/list_genes.txt','r');
 gene_names = textscan(filePh,'%s','delimiter','\n');
 fclose(filePh);
 
+n = 80;
 
-for n = 1:1042
+for n_gene = 1:1042
 
-gene_name = gene_names{1}{n};
+gene_name = gene_names{1}{n_gene};
 
 
     filename = ['./results/gene_' gene_name '_' num2str(pop1) '_' num2str(pop2) '.txt'];
